@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(199, 241, 231);
+}
+h1 {
+    text-align: center;
+  }
+  h2{ text-align: center;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    border-style: dotted;
+    border-color:cornflowerblue
+}
+
+button{
+    border: 3px solid rgba(0,0,0,0.1);
+    border-radius: 16px;
+    padding: 9px 20px;
+    cursor: pointer;
+    
+}
+
+button:hover{
+    background-color: lightgrey ;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: small;
+    border: cornflowerblue;
+}
+article{ font-family: roboto;
+    font-style: normal;
+    font-size: small;
+    border: cornflowerblue;
+}
+table, th, td {
+    border: 1px solid black;}
+    h2{font-size: x-large;
+ }
