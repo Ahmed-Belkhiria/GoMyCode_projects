@@ -1,0 +1,138 @@
+/* initialisation */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+}
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+    margin-bottom: 0%;
+}
+/* navbar style */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    padding: 10px 16px;
+    background: white;
+    color: grey;
+  }
+  
+
+  .content {
+    padding: 16px;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+  
+  
+  .sticky + .content {
+    padding-top: 102px;
+  }
+ul {
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+}
+li {
+    list-style: none;
+}
+/* main  */
+/* intro section */
+#introduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 258px;
+    align-items: center;
+}
+h1{
+    color: #00b39b;
+}
+#introduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 258px;
+    align-items: center;
+}
+#para {
+    display: flex;
+    justify-content: space-between;
+}
+#para p {
+    text-align: justify;
+    padding: 20px;
+    font-size: 20px;
+    color: #747474;
+}
+
+
+.tables{
+    display: flex;
+    justify-content: space-between;
+}
+/* tables section*/
+#Patients {
+    background-color: #00ccb1;
+    color: white;
+    margin: 20px;
+    padding: 10px;
+    opacity: 0.8;
+}
+#Doctors{
+    background-color: #3d83df;
+    color: white;
+    margin: 20px;
+    padding: 10px;
+    opacity: 0.8;
+    }
+#Clinics{
+    background-color: #1b2734;
+    color: white;
+    margin: 20px;
+    padding: 10px;
+    opacity: 0.8;
+}
+
+/*properties section*/
+
+/* countries  section */
+#countries {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    height: 1200px;
+}
+.country {
+    width: 350px;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    justify-content: space-around;
+}
+.country img {
+    width: 350px;
+}
+
+#para{
+    text-align: justify;
+    padding: 20px;
+    font-size: 20px;
+}
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
